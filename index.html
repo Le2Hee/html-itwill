@@ -1,0 +1,64 @@
+<!DOCTYPE html> <!-- DTD(Document Type Definition) : 문서 타입 정의 -->
+<html> <!-- 시작 태그(starting tag) -->
+    <head> <!-- HTML의 여러가지 설정들 -->
+        <meta charset="UTF-8" /> 
+            <!-- meta같은 몇가지 태그들은 시작과 엔드 사이에 컨텐트를 
+            안가지고 있는 게 있는데 닫아주는 게 좋다. -->
+        <title>HTML</title>
+    </head>
+    <body> <!-- 브라우저 화면에서 보여지는 내용들 -->
+        <!--  정리  -->
+        <!--  HTML(Hyper-Text Markup Language) :
+               - 클릭, 클릭해서 새로운 링크를 찾아가는 것이 원래의 목적이다.
+               - Markup : 태그들이 이루어진 문서다.
+               
+               HTML 문법 : 태크, 속성, 컨텐트로 구성되어 있다.
+                <tag attr1 = "value" attr2 = "value" ... >content</tag>
+                     속성 =  "값"   값은 여러개 가능        시작태그와 같은 태그
+               - 사용하는 속성은 태그 종류에 따라 달라진다.
+               - 속성과 속성은 공백으로만 구별한다.
+               - "" 와 '' 상관없지만 관습적으로 ""를 많이 사용한다.
+               - 무조건 "",''를 사용해야 한다. -> 에러는 나지 않는다.
+               
+               HTML 요서(element) - HTML tag
+               - block element : 자동으로 줄 바꿈되는 요소.
+                                 다음 요소는 아래에 배치됨.
+                 (예) h1, h2, ..., h6, div, form, ul, ...
+               - inline element : 자동으로 줄 바꿈되지 않는 요소.
+                                  다음 요소는 오른쪽에 배치됨.
+                 (예) a, img, span, ...
+         -->
+        <h1>첫번째 HTML 파일</h1>
+        <h2>Hello, HTML!</h2>
+        
+        <!-- anchor 링크 -->
+        <a href = "http://www.daum.net">다음</a>
+        <br /> <!--  line break : 줄 바꿈 -->
+        <a href = "http://www.naver.com">네이버</a>
+        <!-- 외부 사이트이기 때문에 http가 들어간다. -->
+        
+        <ul>
+            <li>
+                <a href = "section.html">Section Tag</a>
+                <!-- 우리 웹서버안에서 "section.html"의 파일을 찾아서 보내주세요. 라는 뜻 
+                     서버이름(주소) : 포트/경로/파일이름
+                -->
+            </li>
+            <li>
+                <a href="image.html">Image</a>
+            </li>
+            <li>
+                <a href="list.html">List</a>
+            </li>
+             <li>
+                <a href="table.html">Table</a>
+            </li>
+            <li>
+                <a href="form.html">form</a>
+            </li>
+        </ul>
+        <!-- DOM tree(Document Object Model) -->
+        
+    
+    </body>
+</html> <!-- 종료 태그(end tag) : /가 들어간다. -->
